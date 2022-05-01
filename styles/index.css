@@ -1,0 +1,80 @@
+body{
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+#navbar{
+    border: 1px solid;
+    display: flex;
+    gap: 20px;
+    justify-content: space-evenly;
+}
+#navbar>img{
+    height: 60px;
+    width: 60px;
+}
+#navbar a{
+    font-size: 15px;
+    text-decoration: none;
+    cursor: pointer;
+    color: grey;
+}
+#navbar button{
+    height: 35px;
+    width: 150px;
+    margin-top: 10px;
+    background-color: white;
+    border: 1px solid rgb(177, 176, 176) ;
+    color: grey;
+    border-radius: 5px;
+}
+#search{
+    height: 35px;
+    width: 50%;
+    border-radius: 20px;
+    border: none;
+    background-color: whitesmoke;
+    text-align: center;
+    margin-top: 10px;
+}
+#itags{
+    font-size: 25px;
+    margin-top: 10px;
+}
+#itags i{
+    margin-left: 20px;
+}
+#categories{
+    display: flex;
+    justify-content: space-evenly;
+}
+#categories p{
+    font-size: 18px;
+    color: grey;
+    cursor: pointer;
+}
+#container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    gap: 5px;
+    
+}
+#container .imagesDiv{
+    margin: center;
+    gap: 5px;
+    text-align: center;
+}
+.imagesDiv img{
+    height: fit-content;
+}
+#sort{
+    width: 150px;
+    height: 30px;
+    text-decoration: grey;
+    color: grey;
+    border-radius: 5px;
+    border: 1px solid rgb(177, 176, 176);
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 25px;
+}
